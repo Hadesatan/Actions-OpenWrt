@@ -1,7 +1,7 @@
 # https://github.com/P3TERX/Actions-OpenWrt
 # File: .github/workflows/openwrt-bulder.yml
 
-name: OpenWrt Builder
+name: ZN-M2 Builder
 
 on:
 #  repository_dispatch:
@@ -13,7 +13,7 @@ env:
   REPO_URL: https://github.com/LiBwrt/openwrt-6.x.git
   REPO_BRANCH: main-nss
   FEEDS_CONF: feeds.conf.default
-  CONFIG_FILE: .config
+  CONFIG_FILE: config_ZN-M2.config
   DIY_P1_SH: diy-part1.sh
   DIY_P2_SH: diy-part2.sh
   UPLOAD_BIN_DIR: false
